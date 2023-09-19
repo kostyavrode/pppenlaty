@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
+
     public TMP_Text moneyBar;
     public Button soundButton;
     public Sprite soundOn;
@@ -20,6 +21,7 @@ public class UIManager : MonoBehaviour
         if (tempBid<Player.instance.money)
         GameManager.instance.SetBid(tempBid);
     }
+
     public void LoadMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
