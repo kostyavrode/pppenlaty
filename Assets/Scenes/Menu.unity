@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.22571383, b: 0.30692253, a: 1}
+  m_IndirectSpecularColor: {r: 0.18036056, g: 0.22579919, b: 0.30703527, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1723,7 +1723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68705022ea509d46b5829f8edb28682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  privacyUrl: https://www.privacypolicyonline.com/live.php?token=GiBXBbRCOtxmoIZUuNanvi5gykWPeIGL
+  privacyUrl: https://doc-hosting.flycricket.io/stake-to-9-privacy-policy/625f2bb4-eb2c-4723-82d3-7714d0b9ea0b/privacy
   donateUrl: https://docs.google.com/forms/d/1ZRMq9jY7ib09ahdutTzrQOy0j17RU3Uk89RJNt_2MH0/viewform?pli=1&pli=1&edit_requested=true
   moneyBar: {fileID: 336173989}
 --- !u!1 &1144552667
