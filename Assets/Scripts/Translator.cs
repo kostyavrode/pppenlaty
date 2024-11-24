@@ -45,4 +45,8 @@ public class Translator : MonoBehaviour
         isPortu = true;
         PlayerPrefs.SetInt("isPortu", 1);
     }
+    public void NotTranslate()
+    {
+        PlayerPrefs.SetInt("isPortu", 0);
+    }
 }
