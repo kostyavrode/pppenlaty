@@ -26,6 +26,10 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+    public void RestartMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     public void TurnAudio()
     {
         if (!isAudio)
@@ -43,9 +47,9 @@ public class UIManager : MonoBehaviour
     }    
     private void Update()
     {
-        bidBar.text = GameManager.instance.GetCurrentBid().ToString() + ",00 DEM";
-        moneyBar.text = Player.instance.GetMoney().ToString()+",00 DEM";
-        winBar.text = GameManager.instance.GetCurrentWin() + ",00 DEM";
+        bidBar.text = GameManager.instance.GetCurrentBid().ToString();
+        moneyBar.text = Player.instance.GetMoney().ToString();
+        winBar.text = GameManager.instance.GetCurrentWin().ToString();
         if (GameManager.instance.GetCurrentScore()==0)
         {
             fillBar.fillAmount = 0;
