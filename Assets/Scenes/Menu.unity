@@ -933,7 +933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fe9b30bb8d8565147ac681e2fbaa442b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7209933608dd31c4aa23e09f3126772f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8637,7 +8637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPortu: 0
-  portuSprite: {fileID: 21300000, guid: d031ce6ea8a8f3d41a834b1fea32f65c, type: 3}
+  portuSprite: {fileID: 21300000, guid: dbb33ec95737fc04b8f8e2b7710f0424, type: 3}
   imaheHolder: {fileID: 142069726}
   portugales:
   - "configura\xE7\xF5es"
