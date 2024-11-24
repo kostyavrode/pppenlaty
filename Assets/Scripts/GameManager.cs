@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private int currestScore;
     private int bid;
+    [SerializeField] private GameObject[] deac;
     private void Awake()
     {
         instance = this;
@@ -16,6 +17,14 @@ public class GameManager : MonoBehaviour
     {
         currestScore++;
         CheckStage();
+        Ctivate(false);
+    }
+    private void Ctivate(bool s)
+    {
+        foreach(var item in deac)
+        {
+            item.SetActive(s);
+        }
     }
     public void GoalNotScored()
     {
@@ -25,6 +34,7 @@ public class GameManager : MonoBehaviour
     public void ResetScore()
     {
         currestScore = 0;
+        Ctivate(true);
     }
     private void CheckStage()
     {
@@ -105,5 +115,6 @@ public class GameManager : MonoBehaviour
     {
         Player.instance.RaiseMoney(GetCurrentWin());
         ResetScore();
+        Ctivate(true);
     }
 }
