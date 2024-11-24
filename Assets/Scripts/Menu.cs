@@ -24,4 +24,8 @@ public class Menu : MonoBehaviour
 
         }
     }
+    public void SelectLevel(int l)
+    {
+        PlayerPrefs.SetInt("Level", l);
+    }
 }
