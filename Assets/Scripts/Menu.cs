@@ -18,7 +18,7 @@ public class Menu : MonoBehaviour
     public void GetPlayerMoney()
     {
         if (PlayerPrefs.HasKey("money"))
-        moneyBar.text = PlayerPrefs.GetInt("money").ToString() + ",00 DEM";
+        moneyBar.text = PlayerPrefs.GetInt("money").ToString();
         else
         {
 
